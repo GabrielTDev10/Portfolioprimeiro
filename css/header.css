@@ -45,7 +45,7 @@ a{
 
 nav{
     position: relative;
-    top: 180px;
+    top: 130px;
 }
 
 .headerlog{
@@ -67,8 +67,15 @@ a>img{
     bottom: -430px;
 }
 
+.headerfooter{
+    position: absolute;
+    top: 190px;
+    max-width: 110px;
+}
+
 .headerfooter>a{
     margin-left: 14px;
+
 }
 
 li:hover,p:hover{
