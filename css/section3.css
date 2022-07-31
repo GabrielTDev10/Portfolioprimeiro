@@ -1,0 +1,69 @@
+.seccont1 h3{
+    top: 40px;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    letter-spacing: 9px;
+}
+
+.seccont1 h3:hover{
+    color: #00f5d4;
+}
+
+.formcent{
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.formcent form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    padding: 5rem;
+    max-width: 700px;
+    width: 700px;
+}
+
+form label{
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form input{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+form textarea{
+    margin-top: 0.5rem;
+}
+
+
+form input,textarea{
+    width: 100%;
+}
+
+
+form input[type="submit"]{
+    width: auto;
+    font-size: 1.2rem;
+    padding: 0.4rem 2rem;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: #4113be;
+    cursor: pointer;
+    border-radius: 40px;
+}
+

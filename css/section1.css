@@ -1,0 +1,61 @@
+.hab>img{
+    width: 100px;
+
+}
+
+.hab2>img{
+    width: 103px;
+}
+
+#gmt{
+    width: 130px;
+}
+
+.habimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    margin-left: 180px;
+    justify-content: space-around;
+}
+
+.textp{
+    margin-top: 200px;
+    margin-left: 320px;
+    max-width: 350px;
+}
+
+
+.textp>h2:hover{
+    color: #9fb6b6;
+}
+
+
+.secthab{
+    background-color: black;
+}
+
+.textcomt{
+    display: flex;
+}
+
+.textp2{
+    margin-top: 190px;
+    margin-left: 270px;
+    max-width: 430px;
+}
+
+
+
+.textp2>h2:hover{
+    color: #9fb6b6;
+}
+
+.textp>h2,.textp2>h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+
+}
